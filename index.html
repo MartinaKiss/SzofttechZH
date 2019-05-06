@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+ 	<meta charset="UTF-8">
+    
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        
+	<title>Statistics</title>
+    
+	<link rel="stylesheet" href="src/style.css">
+	<link rel="stylesheet" href="src/fontawesome5/css/all.css">
+    
+</head>
+<body>
+    
+	<div>
+       
+		<header>
+            
+			<nav>
+				<i class="fas fa-angle-left"></i>
+			</nav>
+			<div></div>
+            
+			<h1>Statistics</h1>
+            
+		</header>
+        
+		<main>
+			<div>
+           
+           		<!-- EMPTY STATE -->
+           		
+           		<section class="empty">
+					<h2>No records yet</h2>
+					<p>No records have been added yet</p>
+					<p>Add the first rating!</p>
+					<i class="fas fa-plus-circle"></i>
+				</section>
+           		
+           		<!-- END: EMPTY STATE -->
+           
+				<!-- ADD-NEW VIEW -->
+
+				<form>
+
+					<label for="recordCode">Code</label>
+					<input type="text" id="recordCode" required>
+
+					<label for="recordSex">Sex (type "female" or "male")</label>
+					<input type="text" id="recordSex"><br>
+
+					<label for="recordAge">Age</label>
+					<input type="text" id="recordAge" required>
+
+					<label for="recordRating">Rating (1-10)</label>
+					<input type="text" id="recordRating" required>
+
+					<button> <i class="fas fa-check"></i> Submit</button>
+
+				</form>
+				
+				<!-- END: ADD-NEW VIEW -->
+              
+				<!-- LIST VIEW -->
+
+				<section>
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero est, hendrerit non suscipit vitae, elementum vel neque. Proin ultrices elit ut urna elementum, id ullamcorper elit laoreet. Nulla tempus sem eget arcu auctor, id vulputate purus porta.</p>
+				</section>
+				<section>
+					<h2>Morbi nunc lorem</h2>
+					<p>Morbi nunc lorem, gravida non facilisis vitae, facilisis eget ante. Donec eget faucibus velit, sollicitudin luctus nulla. Nulla quis sapien nunc. Nam sagittis est mollis urna maximus posuere. Nulla posuere pretium nisl id congue.</p>
+				</section>
+				<section>
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero est, hendrerit non suscipit vitae, elementum vel neque. Proin ultrices elit ut urna elementum, id ullamcorper elit laoreet. Nulla tempus sem eget arcu auctor, id vulputate purus porta.</p>
+				</section>
+
+				<!-- END: LIST VIEW -->
+
+			</div>
+		</main>
+        
+		<footer>
+			<nav>
+				<ul>
+					<li><a id="add" href=""><i class="fas fa-plus-square"></i></a></li>
+					<li><a id="list" href=""><i class="fas fa-folder-open"></i></a></li>
+				</ul>
+			</nav>
+		</footer>
+        
+	</div>
+    
+	<section class="dialog">
+		<h3>Lorem ipsum dolor</h3>
+		<p>Lorem ipsum dolor sit amet constectetur adipiscing elit.</p>
+		<button class="accept"> <i class="fas fa-check"></i> <span>Accept</span> </button>
+		<button class="cancel"> <i class="fas fa-times"></i> Cancel </button>
+	</section>
+
+	<script src="app/model.js"></script>
+	<script src="app/view.js"></script>
+	<script src="app/controller.js"></script>
+	<script src="app/main.js"></script>
+    
+</body>
+</html>

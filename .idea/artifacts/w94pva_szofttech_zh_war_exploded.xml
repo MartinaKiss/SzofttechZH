@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="w94pva-szofttech-zh:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/w94pva_szofttech_zh_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="w94pva-szofttech-zh/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="w94pva-szofttech-zh" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
